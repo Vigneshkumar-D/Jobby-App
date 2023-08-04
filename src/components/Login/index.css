@@ -1,0 +1,74 @@
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+}
+.app-logo {
+  height: 50px;
+  width: 150px;
+  margin-top: 10px;
+}
+.login-page-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  border-radius: 5px;
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  height: 300px;
+  width: 300px;
+}
+.password,
+.username {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.password-input,
+.username-input {
+  height: 35px;
+  padding-left: 7px;
+  outline: none;
+  border: 1px solid #64748b;
+  margin-top: 5px;
+  background-color: transparent;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #64748b;
+}
+.login-button {
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  height: 30px;
+  color: #ffffff;
+  background-color: #6366f1;
+  outline: none;
+  border: none;
+  margin-top: 33px;
+  cursor: pointer;
+  padding: 5px;
+}
+.err-msg {
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+  color: #ff0b37;
+}

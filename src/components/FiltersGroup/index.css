@@ -1,0 +1,59 @@
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 20%;
+  min-height: 95vh;
+  min-height: 93vh;
+  background-color: transparent;
+  flex-grow: 1;
+  margin-top: 7vh;
+  position: fixed;
+}
+.epm-list {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ffffff;
+}
+.check-box-con {
+  padding: 5px;
+}
+.type-of-emp {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.label-text {
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 5px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.retry-btn {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  width: 90px;
+  background-color: #4f46e5;
+}
+.employee-type-container {
+  display: flex;
+  flex-direction: row;
+}
+.employee-type-list {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  padding-left: 0px;
+  list-style: none;
+}
+.salary-range-container {
+  display: flex;
+  flex-direction: column;
+}
